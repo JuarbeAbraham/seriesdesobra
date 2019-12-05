@@ -1,4 +1,5 @@
-<script>  function go(loc) {
+<script type='text/javascript'>//<![CDATA[
+//   function go(loc) {
     document.getElementById('iframe').src = loc;
   };
   var btnContainer = document.getElementById("serverid");
@@ -9,4 +10,6 @@
       current[0].className = current[0].className.replace(" active", "");
       this.className += " active";
     });
-  }</script>
+  }
+//]]>
+</script>
