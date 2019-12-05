@@ -5,11 +5,9 @@
   position: absolute;
   left: -200vw;
 }
-
 .tabset .tab-panel {
   display: none;
 }
-
 .tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
 .tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
 .tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
@@ -26,7 +24,6 @@ body {
   color: #333;
   font-weight: 300;
 }
-
 .tabset > label {
   position: relative;
   display: inline-block;
@@ -36,7 +33,6 @@ body {
   cursor: pointer;
   font-weight: 600;
 }
-
 .tabset > label::after {
   content: "";
   position: absolute;
@@ -46,44 +42,23 @@ body {
   height: 4px;
   background: #8d8d8d;
 }
-
 .tabset > label:hover,
 .tabset > input:focus + label {
   color: #06c;
 }
-
 .tabset > label:hover::after,
 .tabset > input:focus + label::after,
 .tabset > input:checked + label::after {
   background: #06c;
 }
-
 .tabset > input:checked + label {
   border-color: #ccc;
   border-bottom: 1px solid #fff;
   margin-bottom: -1px;
 }
-
 .tab-panel {
   padding: 30px 0;
   border-top: 1px solid #ccc;
-}
-
-/*
- Demo purposes only
-*/
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-body {
-  padding: 30px;
-}
-
-.tabset {
-  max-width: 65em;
 }
 /*
  VIDEO TAB
