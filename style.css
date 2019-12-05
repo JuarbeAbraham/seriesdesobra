@@ -1,4 +1,3 @@
-<style>
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
 @media only screen and (max-width: 400px) { 
   .content p {
@@ -636,4 +635,3 @@ object,embed,iframe{max-width:100%}
 @media only screen and (max-width: 460px) {
 .related_posts .rp_col { float: none; width:auto; }
 }
-</style>
