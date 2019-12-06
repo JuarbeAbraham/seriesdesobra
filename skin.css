@@ -113,3 +113,29 @@ body {
 /*
  MARQUEE
 */
+/*
+ AFILIACION
+*/
+/* Plugin: Marquee Banners v1.0.2 */
+/* by zkreations */
+@-webkit-keyframes marquee{0%{top:100%;-webkit-transform:translateY(0);transform:translateY(0)}100%{top:0;-webkit-transform:translateY(-100%);transform:translateY(-100%)}}@keyframes marquee{0%{top:100%;-webkit-transform:translateY(0);transform:translateY(0)}100%{top:0;-webkit-transform:translateY(-100%);transform:translateY(-100%)}}@-webkit-keyframes marquee-inset{0%,100%{-webkit-transform:translateY(0);transform:translateY(0);top:0}50%{-webkit-transform:translateY(-100%);transform:translateY(-100%);top:100%}}@keyframes marquee-inset{0%,100%{-webkit-transform:translateY(0);transform:translateY(0);top:0}50%{-webkit-transform:translateY(-100%);transform:translateY(-100%);top:100%}}.marque{overflow:hidden;position:relative}.marque-items{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;position:absolute;left:0;width:100%}.marque-items:hover{-webkit-animation-play-state:paused;animation-play-state:paused}.marque-items a{display:block;float:left}.marque-items img{max-width:100%}
+/*
+=> Personalizar
+*/
+/* Contenedor
+--------------------------------------------*/
+.marque {
+  height:420px; /*Altura del contenedor*/
+}
+/* Animacion --------------------------------------------*/
+.marque-items {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s; /* Duracion */
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;  /* Tipo de animación */
+  -webkit-animation-name: marquee;
+          animation-name: marquee; /* Animacion */
+}
+/*
+ AFILIACION
+*/
